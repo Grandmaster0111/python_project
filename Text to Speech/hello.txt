@@ -1,0 +1,5 @@
+In train_test_split, X refers to the input feature matrix, which contains the independent variables or predictors used to predict the target variable. The X matrix should be a 2-dimensional array-like object, such as a NumPy array or Pandas DataFrame, where each row represents an observation, and each column represents a feature or variable.
+
+For example, if we have a dataset containing information about customers, such as their age, income, and location, and we want to predict whether they will purchase a particular product or not, then the X matrix would contain the variables age, income, and location. Each row in the X matrix represents a different customer, and each column represents a different variable.
+
+When we split the dataset using train_test_split, we pass in the X matrix along with the corresponding target variable y. The function then randomly splits the dataset into training and testing sets, so that we can train our machine learning model on the training data and evaluate its performance on the testing data.
