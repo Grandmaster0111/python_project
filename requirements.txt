@@ -1,0 +1,5 @@
+qrcode
+Pillow
+tabula-py
+pandas
+openpyxl
